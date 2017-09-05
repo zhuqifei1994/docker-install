@@ -2,7 +2,7 @@
 
 KERNEL=`uname -r`
 
-if [ $KERNEL = 3.10.5-3.el6.x86_64 ]; then
+if [ "$KERNEL" = "3.10.5-3.el6.x86_64" ]; then
 	exit;
 else
 	cd kernel/;

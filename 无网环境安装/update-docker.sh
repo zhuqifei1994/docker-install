@@ -1,7 +1,7 @@
 #!/bin/bash
 KERNEL=`uname -r`
 
-if [ $KERNEL = 3.10.5-3.el6.x86_64 ];then
+if [ "$KERNEL" = "3.10.5-3.el6.x86_64" ];then
 	continue
 else
 	echo "Please perform before executing the script (sh update-kernel.sh)"
